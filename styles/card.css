@@ -1,0 +1,36 @@
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin-bottom: 15px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-body {
+  margin: 10px 0;
+}
+
+.card-post {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.card-post-group {
+  margin-top: 7rem;
+}
+.card-title-post {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-body-post {
+  margin: 10px 0;
+}

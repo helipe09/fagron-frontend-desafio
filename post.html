@@ -1,0 +1,17 @@
+<div class="container-post">
+  <div class="container-title">
+    <h1>{{post.title}}</h1>
+    <hr />
+  </div>
+  <h2>Matéria:</h2>
+  <h3>" {{post.body}} "</h3>
+  <div class="card-post-group">
+    <div ng-repeat="comment in comments">
+      <div class="card-post">
+        <div class="card-title-post">Nome: {{comment.name}}</div>
+        <div class="card-body-post">Email: {{comment.email}}</div>
+        <div class="card-body-post">Comentário: {{comment.body}}</div>
+      </div>
+    </div>
+  </div>
+</div>
