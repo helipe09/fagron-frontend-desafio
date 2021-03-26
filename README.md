@@ -12,3 +12,16 @@ Clone o repositório e utilize os seguintes comandos para instalar as dependênc
 npm install ou yarn install
 ```
 
+## Servidor local
+
+Para rodar esse projeto na sua máquina instale o http-serve da seguinte maneira:
+```bash
+npm install --global http-server
+```
+e após instalar rode o comando na pasta raiz do projeto:
+```bash
+http-server ./
+```
+
+
+
